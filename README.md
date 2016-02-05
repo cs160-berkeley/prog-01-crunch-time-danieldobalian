@@ -8,7 +8,7 @@ Daniel Dobalian  ([ddobalian@berkeley.edu](mailto:ddobalian@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://link_to_your_video)
+See [Crunch Time Walkthrough] (https://youtu.be/pXHRwDPg9QU)
 
 ## Screenshots
 
