@@ -13,7 +13,7 @@ See [your demo video title here] (https://link_to_your_video)
 ## Screenshots
 
 <img src="screenshots/base.png" height="400" alt="Screenshot"/>
-<img src="screenshots/enter.png" height="200" width="350" alt="Screenshot"/>
+<img src="screenshots/enter.png" alt="Screenshot"/>
 <img src="screenshots/pushups.png" height="400" alt="Screenshot"/>
 <img src="screenshots/jj.png" height="400" alt="Screenshot"/>
 
@@ -21,4 +21,3 @@ See [your demo video title here] (https://link_to_your_video)
 
 http://codehandbook.org/a-simple-android-application-for-adding-two-numbers/ for a quick explanation on how to build simple apps. 
 
-*Feel free to enhance your README. For Markdown syntax, see [the GitHub Guides](https://guides.github.com/features/mastering-markdown/). Remove this line in your submission.*
