@@ -15,6 +15,7 @@ See [Crunch Time Walkthrough] (https://youtu.be/pXHRwDPg9QU)
 <img src="screenshots/base.png" height="400" alt="Screenshot"/>
 <img src="screenshots/pushups.png" height="400" alt="Screenshot"/>
 <img src="screenshots/jj.png" height="400" alt="Screenshot"/>
+<img src="screenshots/portrait.png" height="400" alt="Screenshot"/>
 
 ## Acknowledgments
 
