@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="me.danieldobalian.crunchtime.CalorieCalculator"
+    tools:showIn="@layout/activity_calorie_calculator">
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:clickable="true"
+        android:contextClickable="false"
+        android:longClickable="false"
+        android:id="@+id/ExerciseGroup">
+
+        <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pushups"
+        android:id="@+id/pushupButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:allowUndo="false"
+        android:checked="false"
+        android:clickable="true"
+        android:enabled="true"
+            android:buttonTint="#63aef9" />
+
+        <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jogging"
+        android:id="@+id/jogButton"
+        android:layout_below="@+id/pushupButton"
+        android:layout_alignParentStart="true"
+        android:clickable="true"
+        android:enabled="true"
+            android:buttonTint="#63aef9" />
+
+        <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Situps"
+        android:id="@+id/situpButton"
+        android:layout_below="@+id/jogButton"
+        android:layout_alignParentStart="true"
+        android:clickable="true"
+        android:enabled="true"
+            android:buttonTint="#63aef9" />
+
+        <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumping Jacks"
+        android:id="@+id/jjButton"
+        android:layout_below="@+id/situpButton"
+        android:clickable="true"
+        android:enabled="true"
+            android:buttonTint="#63aef9" />
+
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/input"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/ExerciseGroup"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:backgroundTint="#000000"
+        android:clickable="true"
+        android:hint="Select an exercise first"/>
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go!"
+        android:id="@+id/calcButton"
+        android:background="#4797e8"
+        android:clickable="true"
+        android:layout_alignBottom="@+id/input"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="32dp" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@+id/input"
+        android:layout_alignStart="@+id/input"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/pushupOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/output"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/joggingOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@+id/pushupOut"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/situpOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@+id/joggingOut"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/jjOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@+id/situpOut"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/eqOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@+id/output"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="83dp" />
+
+</RelativeLayout>
